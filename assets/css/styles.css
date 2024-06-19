@@ -15,7 +15,7 @@ body {
   left: 0;
   width: auto; /* Ajusta el tamaño según sea necesario  500px*/
   height: auto;
-  margin: 10px; /* Espacio alrededor de la imagen */
+  margin: 20px; /* Espacio alrededor de la imagen */
   z-index: -1; /* Asegura que otros elementos se puedan superponer */
   max-width: 100%;
 }
@@ -26,9 +26,25 @@ p {
   font-weight: normal;
   font-family: Arial, sans-serif;
 }
+.parrafo {
+  text-size-adjust: initial;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.parrafo2 {
+  text-size-adjust: initial;
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #da1818;
+  text-shadow: 4px 4px 9px rgba(0, 0, 0, 1);
+}
 
 header {
-  background-color: #a34c4c;
+  background-color: #da1818;
   color: #fff;
   text-align: center;
   padding: 20px;
@@ -86,7 +102,6 @@ nav ul li a:hover {
 a:hover {
   text-decoration: underline;
   font-weight: bold;
-  
 }
 
 .par {
@@ -121,33 +136,78 @@ h4 {
   color: antiquewhite;
   text-align: center;
 }
-.carousel-container {
-  max-width: 800px;
-  /* Ajusta el tamaño según tus necesidades */
-  margin: 0 auto;
-  /* Centra el carrusel */
-  padding: 20px 0;
-  /* Espacio alrededor del carrusel */
-}
 
-
-
-.img-carousel {
-  height: auto; /* Ajusta la altura según sea necesario 800px */
-  object-fit: cover;
-  max-width: 100%;
-}
-
-
+/* carrusel  */
 .carousel-caption {
-  background-color: rgba(
+  position: absolute;
+  top: 50%; /* Comienza desde la mitad de la imagen */
+  left: 50%;
+  transform: translate(
+    -50%,
+    30%
+  ); /* Centra horizontalmente y sitúa el contenedor desde la mitad hacia abajo */
+  width: 60%; /* Ocupa todo el ancho de la imagen */
+  text-align: center;
+  background: rgba(
     0,
     0,
     0,
     0.5
-  ); /* Fondo semitransparente para mejorar la legibilidad del texto */
-  padding: 10px;
-  border-radius: 5px;
+  ); /* Fondo semitransparente para mejor legibilidad */
+  padding: 20px;
+  box-sizing: border-box; /* Incluye padding en el tamaño total del contenedor */
+  color: white; /* Color del texto */
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.carousel-caption h5,
+.carousel-caption p {
+  margin: 0;
+  padding: 0;
+  color: white; /* Color del texto */
+  width: 100%;
+  height: auto;
+}
+
+/* Media queries para ajustar el diseño en diferentes tamaños de pantalla */
+@media (max-width: 768px) {
+  .carousel-caption {
+    padding: 10px;
+    font-size: 0.9em; /* Ajusta el tamaño del texto en pantallas más pequeñas */
+  }
+
+  .carousel-caption h5 {
+    font-size: 1.2em;
+  }
+
+  .carousel-caption p {
+    font-size: 1em;
+  }
+
+  .parrafo {
+    font-size: 1em;
+  }
+  .parrafo2 {
+    font-size: 1em;
+  }
+}
+
+.img-carousel {
+  width: 70%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-container {
+  max-width: 800px; /* Ajusta el tamaño según tus necesidades */
+  margin: 0 auto; /* Centra el carrusel */
+  padding: 20px 0; /* Espacio alrededor del carrusel */
+  justify-content: center;
 }
 
 .footer-content {
@@ -222,7 +282,7 @@ h4 {
   background-color: #eae9ef;
   border-color: #f70808 #f30707 #fff;
 }
-.autos{
+.autos {
   color: white;
   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.932);
 }
