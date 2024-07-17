@@ -152,8 +152,8 @@
                             <br>
                             <br>
                             <div class="video-container mb-3">
-                                <iframe src="https://www.youtube.com/embed/c5HLIBU5qzQ?si=_vPPAMXFmSgf2APo"
-                                    frameborder="0" allowfullscreen></iframe>
+                                <iframe src="https://www.youtube.com/embed/c5HLIBU5qzQ?si=_vPPAMXFmSgf2APo"  frameborder="0"
+                                    allowfullscreen></iframe>
                             </div>
                         </div>
                     </div>
@@ -223,8 +223,8 @@
                             <br>
                             <br>
                             <div class="video-container mb-3">
-                                <iframe src="https://www.youtube.com/embed/0M-sYQEyN_4?si=oANcgnatvmBeZCG4"
-                                    frameborder="0" allowfullscreen></iframe>
+                                <iframe src="https://www.youtube.com/embed/0M-sYQEyN_4?si=oANcgnatvmBeZCG4" frameborder="0"
+                                    allowfullscreen></iframe>
                             </div>
                         </div>
                     </div>
@@ -291,10 +291,10 @@
                             </div>
                             <br>
                             <br>
-                        </div>
+                        </div>                    
                         <div class="video-container mb-3">
-                            <iframe src="https://www.youtube.com/embed/XY6nbytKF0M?si=uTK4Ve22rG8GZGHy" frameborder="0"
-                                allowfullscreen></iframe>
+                        <iframe src= "https://youtu.be/XY6nbytKF0M?si=2qkKXKGHYCuE2sCV" frameborder="0"
+                            allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>
@@ -363,7 +363,7 @@
 
                         </div>
                         <div class="video-container mb-3">
-                            <iframe src="https://www.youtube.com/embed/OyPXKjoMDQI?si=Mq6m7Beg1W5LKHWb" frameborder="0"
+                            <iframe src="https://www.youtube.com/embed/OyPXKjoMDQI?si=Mq6m7Beg1W5LKHWb"  frameborder="0"
                                 allowfullscreen></iframe>
                         </div>
                     </div>
