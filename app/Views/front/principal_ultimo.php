@@ -16,8 +16,8 @@
                 <img src="assets/img/ca1.png" class=" d-block w-100 img-carousel" alt="...">
                 <div class="carousel-caption  ">
                     <h5>NUEVO TOYOTA COROLLA CROSS</h5>
-                    <p>NUEVO DISEÑO </P>
-                    Diseño frontal completamente renovado, con una nueva parrilla en forma de panal que transmite
+                    <p>NUEVO DISEÑO </p>
+                    <p>Diseño frontal completamente renovado, con una nueva parrilla en forma de panal que transmite
                     mayor modernidad y sofisticación. Faros delanteros bi-LED con regulación en altura y luces de
                     giros secuenciales (Disponible en versión SEG).
                     Nuevo diseño de llantas de 18”, con diseño tridimensional que le otorgan más elegancia

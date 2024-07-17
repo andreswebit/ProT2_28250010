@@ -6,7 +6,8 @@ class Home extends BaseController
 {
     public function index()
     {
-        echo view('front/head_view');
+        $data['titulo']='index';
+        echo view('front/head_view',$data);
         echo view("front/navbar_view");
         echo view("front/principal_ultimo");
         echo view("front/footer_view");
@@ -14,7 +15,8 @@ class Home extends BaseController
     }
     public function quienes_somos()
     {
-        echo view("front/head_view");
+        $data['titulo']='quienes_somos';
+        echo view("front/head_view",$data);
         echo view("front/navbar_view");
         echo view("front/quienes_somos");
         echo view("front/footer_view");
@@ -22,7 +24,8 @@ class Home extends BaseController
     }
     public function acerca_de()
     {
-        echo view("front/head_view");
+        $data['titulo']='acerca_de';
+        echo view("front/head_view",$data);
         echo view("front/navbar_view");
         echo view("front/acerca_de");
         echo view("front/footer_view");
@@ -30,23 +33,27 @@ class Home extends BaseController
     }
     public function registro()
     {
-        echo view("front/head_view");
+        
+        $data['titulo']='registro';        
+        echo view("front/head_view",$data);
         echo view("front/navbar_view");
-        echo view("front/registro");
+        echo view("Back/usuario/registro");
         echo view("front/footer_view");
         
     }
     public function login()
     {
-        echo view("front/head_view");
+        $data['titulo']='login';
+        echo view("front/head_view",$data);
         echo view("front/navbar_view");
-        echo view("front/login");
+        echo view("Back/usuario/login");
         echo view("front/footer_view");
         
     }
     public function productos()
     {
-        echo view("front/head_view");
+        $data['titulo']='productos';
+        echo view("front/head_view", $data);
         echo view("front/navbar_view");
         echo view("front/productos");
         echo view("front/footer_view");
